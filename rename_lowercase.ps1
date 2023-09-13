@@ -1,5 +1,5 @@
 
-$folderPath = Read-Host "Enter relative path of directory: "
+$folderPath = Read-Host "Enter relative path of directory"
 $files = Get-ChildItem $folderPath
 foreach ($file in $files) {
     $currentName = $file.Name
