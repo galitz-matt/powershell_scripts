@@ -1,5 +1,6 @@
 # powershell_scripts
 This was created to automate different PowerShell tasks
 
-## rename_lowercase
-This script renames all files in a specified directory to their lowercase form
+## reformat_name
+Takes relative path and makes all file names lowercase and replaces spaces with underscores
+ex: "Demo File" --> "demo_file"
